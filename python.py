@@ -5,6 +5,5 @@ def function(n):
         return n*function(n-1)
 
 print(function(0))
-print("been here")
-print("been there")
+
 
