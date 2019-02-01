@@ -3,14 +3,18 @@
 #Suppose the following input is supplied to the program:8
 #Then, the output should be:40320
 
+x = int(input("Enter a single number: "))
 
-intr=int(input("Enter a single number: "))
 
-def factorial(intr):
-    if intr == 0:
+def factorial(x):
+    
+    if x == 0:
         return 1
+    
     else:
-        return intr * factorial(intr-1)
+        return x * factorial(x-1)
 
-print(factorial(intr))
+    
+
+print(factorial(x))
 
