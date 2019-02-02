@@ -13,5 +13,3 @@ for i in l.split(","):
 
 print(z)
 print(tuple(z))
-
-
