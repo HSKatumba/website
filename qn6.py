@@ -8,7 +8,7 @@ value = []
 
 items = [x for x in input().split(",")]
 
-def sroot_sequence():
+def sroot_sequence(items):
     for d in items:
         value.append(str(int(math.sqrt((2*c*int(d))/h))))
     print(value)
